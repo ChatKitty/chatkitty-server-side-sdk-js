@@ -13,7 +13,7 @@
 
 <a href="https://www.npmjs.com/package/chatkitty-server-side-sdk"><img src="https://nodei.co/npm/chatkitty-server-side-sdk.png" alt="NPM Package"></a>
 
-[![Build Status](https://travis-ci.com/ChatKitty/chatkitty-server-side-sdk-js.svg?branch=master)](https://travis-ci.com/ChatKitty/chatkitty-js)
+[![Build Status](https://travis-ci.com/ChatKitty/chatkitty-server-side-sdk-js.svg?branch=master)](https://travis-ci.com/ChatKitty/chatkitty-server-side-sdk-js)
 
 Features
 ------------
