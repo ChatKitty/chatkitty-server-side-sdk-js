@@ -1,0 +1,19 @@
+sudo: false
+language: node_js
+node_js:
+  - '12'
+cache:
+  directories:
+    - '$HOME/.npm'
+script:
+  - typedoc --name "ChatKitty Server-Side JS SDK" --out docs --plugin typedoc-plugin-extras --favicon .docs/favicon.ico
+  - cp -a .docs/. docs
+deploy:
+  provider: pages
+  local_dir: docs
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  target_branch: gh-pages
+  on:
+    branch: master

@@ -1,0 +1,29 @@
+{
+  "name": "chatkitty-server-side-sdk",
+  "version": "1.0.2",
+  "description": "OpenAPI client for chatkitty-server-side-sdk",
+  "author": "OpenAPI-Generator Contributors",
+  "keywords": [
+    "axios",
+    "typescript",
+    "openapi-client",
+    "openapi-generator",
+    "chatkitty-server-side-sdk"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --outDir dist/",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.5",
+    "typedoc": "^0.19.2",
+    "typedoc-plugin-extras": "^1.1.7",
+    "typescript": "^3.6.4"
+  }
+}
