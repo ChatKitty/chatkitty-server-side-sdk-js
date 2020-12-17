@@ -95,7 +95,7 @@ yarn add chatkitty-server-side-sdk
 ```
 
 ## API Documentation
-Please see the documentation for this SDK at https://docs.chatkitty.com/platform/v1/.
+Please see the documentation for this SDK at https://chatkitty.github.io/chatkitty-server-side-sdk-js/
 
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
