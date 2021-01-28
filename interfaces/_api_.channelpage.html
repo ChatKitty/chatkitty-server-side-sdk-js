@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Link | ChatKitty Server-Side JS SDK</title>
+	<title>ChannelPage | ChatKitty Server-Side JS SDK</title>
 	<meta name="description" content="Documentation for ChatKitty Server-Side JS SDK">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -60,10 +60,10 @@
 					<a href="../modules/_api_.html">&quot;api&quot;</a>
 				</li>
 				<li>
-					<a href="_api_.link.html">Link</a>
+					<a href="_api_.channelpage.html">ChannelPage</a>
 				</li>
 			</ul>
-			<h1>Interface Link</h1>
+			<h1>Interface ChannelPage</h1>
 		</div>
 	</div>
 </header>
@@ -73,13 +73,13 @@
 			<section class="tsd-panel tsd-comment">
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Represents a HAL HATEOAS link to a resource</p>
+						<p>A page of channels</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>export</dt>
 						<dd></dd>
 						<dt>interface</dt>
-						<dd><p>Link</p>
+						<dd><p>ChannelPage</p>
 						</dd>
 					</dl>
 				</div>
@@ -88,7 +88,7 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">Link</span>
+						<span class="target">ChannelPage</span>
 					</li>
 				</ul>
 			</section>
@@ -99,7 +99,9 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_api_.link.html#href" class="tsd-kind-icon">href</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_api_.channelpage.html#_embedded" class="tsd-kind-icon">_embedded</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_api_.channelpage.html#_links" class="tsd-kind-icon">_links</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_api_.channelpage.html#page" class="tsd-kind-icon">page</a></li>
 							</ul>
 						</section>
 					</div>
@@ -108,21 +110,52 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="href" class="tsd-anchor"></a>
-					<h3>href</h3>
-					<div class="tsd-signature tsd-kind-icon">href<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<a name="_embedded" class="tsd-anchor"></a>
+					<h3>_embedded</h3>
+					<div class="tsd-signature tsd-kind-icon">_embedded<span class="tsd-signature-symbol">:</span> <a href="_api_.channelpageallofembedded.html" class="tsd-signature-type">ChannelPageAllOfEmbedded</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/ChatKitty/chatkitty-server-side-sdk-js/blob/ee33d17/api.ts#L477">api.ts:477</a></li>
+							<li>Defined in <a href="https://github.com/ChatKitty/chatkitty-server-side-sdk-js/blob/ee33d17/api.ts#L211">api.ts:211</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>URI pointing to a resource representation</p>
-						</div>
 						<dl class="tsd-comment-tags">
 							<dt>memberof</dt>
-							<dd><p>Link</p>
+							<dd><p>ChannelPage</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="_links" class="tsd-anchor"></a>
+					<h3>_links</h3>
+					<div class="tsd-signature tsd-kind-icon">_links<span class="tsd-signature-symbol">:</span> <a href="_api_.pagelinks.html" class="tsd-signature-type">PageLinks</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ChatKitty/chatkitty-server-side-sdk-js/blob/ee33d17/api.ts#L223">api.ts:223</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>memberof</dt>
+							<dd><p>ChannelPage</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="page" class="tsd-anchor"></a>
+					<h3>page</h3>
+					<div class="tsd-signature tsd-kind-icon">page<span class="tsd-signature-symbol">:</span> <a href="_api_.pagepage.html" class="tsd-signature-type">PagePage</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ChatKitty/chatkitty-server-side-sdk-js/blob/ee33d17/api.ts#L217">api.ts:217</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>memberof</dt>
+							<dd><p>ChannelPage</p>
 							</dd>
 						</dl>
 					</div>
@@ -154,10 +187,16 @@
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-interface tsd-parent-kind-module">
-						<a href="_api_.link.html" class="tsd-kind-icon">Link</a>
+						<a href="_api_.channelpage.html" class="tsd-kind-icon">Channel<wbr>Page</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="_api_.link.html#href" class="tsd-kind-icon">href</a>
+								<a href="_api_.channelpage.html#_embedded" class="tsd-kind-icon">_embedded</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_api_.channelpage.html#_links" class="tsd-kind-icon">_links</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_api_.channelpage.html#page" class="tsd-kind-icon">page</a>
 							</li>
 						</ul>
 					</li>
