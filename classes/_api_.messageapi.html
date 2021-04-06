@@ -117,6 +117,7 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.messageapi.html#deletemessage" class="tsd-kind-icon">delete<wbr>Message</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.messageapi.html#getmessage" class="tsd-kind-icon">get<wbr>Message</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_api_.messageapi.html#getmessages" class="tsd-kind-icon">get<wbr>Messages</a></li>
 							</ul>
 						</section>
 					</div>
@@ -135,7 +136,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_base_.baseapi.html">BaseAPI</a>.<a href="_base_.baseapi.html#constructor">constructor</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/ChatKitty/chatkitty-server-side-sdk-js/blob/c5b232c/base.ts#L50">base.ts:50</a></li>
+									<li>Defined in <a href="https://github.com/ChatKitty/chatkitty-server-side-sdk-js/blob/bc008db/base.ts#L50">base.ts:50</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -164,7 +165,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_base_.baseapi.html">BaseAPI</a>.<a href="_base_.baseapi.html#axios">axios</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/ChatKitty/chatkitty-server-side-sdk-js/blob/c5b232c/base.ts#L52">base.ts:52</a></li>
+							<li>Defined in <a href="https://github.com/ChatKitty/chatkitty-server-side-sdk-js/blob/bc008db/base.ts#L52">base.ts:52</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -175,7 +176,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_base_.baseapi.html">BaseAPI</a>.<a href="_base_.baseapi.html#basepath">basePath</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/ChatKitty/chatkitty-server-side-sdk-js/blob/c5b232c/base.ts#L52">base.ts:52</a></li>
+							<li>Defined in <a href="https://github.com/ChatKitty/chatkitty-server-side-sdk-js/blob/bc008db/base.ts#L52">base.ts:52</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -186,7 +187,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_base_.baseapi.html">BaseAPI</a>.<a href="_base_.baseapi.html#configuration">configuration</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/ChatKitty/chatkitty-server-side-sdk-js/blob/c5b232c/base.ts#L50">base.ts:50</a></li>
+							<li>Defined in <a href="https://github.com/ChatKitty/chatkitty-server-side-sdk-js/blob/bc008db/base.ts#L50">base.ts:50</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -203,7 +204,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/ChatKitty/chatkitty-server-side-sdk-js/blob/c5b232c/api.ts#L2286">api.ts:2286</a></li>
+									<li>Defined in <a href="https://github.com/ChatKitty/chatkitty-server-side-sdk-js/blob/bc008db/api.ts#L2404">api.ts:2404</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -245,7 +246,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/ChatKitty/chatkitty-server-side-sdk-js/blob/c5b232c/api.ts#L2298">api.ts:2298</a></li>
+									<li>Defined in <a href="https://github.com/ChatKitty/chatkitty-server-side-sdk-js/blob/bc008db/api.ts#L2416">api.ts:2416</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -274,6 +275,57 @@
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">AxiosResponse</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_api_.message.html" class="tsd-signature-type">Message</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getmessages" class="tsd-anchor"></a>
+					<h3>get<wbr>Messages</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Messages<span class="tsd-signature-symbol">(</span>start<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, next<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, size<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, relation<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">"SELF"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"PREVIOUS"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"NEXT"</span>, options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">AxiosResponse</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_api_.messagepage.html" class="tsd-signature-type">MessagePage</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChatKitty/chatkitty-server-side-sdk-js/blob/bc008db/api.ts#L2431">api.ts:2431</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Gets a page of messages.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>summary</dt>
+									<dd><p>Get Messages</p>
+									</dd>
+									<dt>throws</dt>
+									<dd><p>{RequiredError}</p>
+									</dd>
+									<dt>memberof</dt>
+									<dd><p>MessageApi</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> start: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> next: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> size: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> relation: <span class="tsd-signature-type">"SELF"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"PREVIOUS"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"NEXT"</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">AxiosResponse</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_api_.messagepage.html" class="tsd-signature-type">MessagePage</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -324,6 +376,9 @@
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="_api_.messageapi.html#getmessage" class="tsd-kind-icon">get<wbr>Message</a>
 							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_api_.messageapi.html#getmessages" class="tsd-kind-icon">get<wbr>Messages</a>
+							</li>
 						</ul>
 					</li>
 				</ul>
@@ -359,7 +414,7 @@
 	</div>
 </footer>
 <div class="container tsd-generator">
-	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a>, the 1/28/2021 at 9:53:02 PM</p>
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a>, the 4/6/2021 at 3:57:38 PM</p>
 </div>
 <div class="overlay"></div>
 <script src="../assets/js/main.js"></script>
